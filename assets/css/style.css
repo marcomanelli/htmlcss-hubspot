@@ -188,7 +188,7 @@ a{
 }
 
 .jumbotron-title{
-  padding-top: 100px;
+  margin-top: 100px;
   font-size: 350%;
 }
 
@@ -416,4 +416,118 @@ a{
 
 .cell-1{
   border: none;
+}
+
+/* PART-3 */
+.part-3{
+  height: 800px;
+}
+
+/* AGENCIES */
+.agencies{
+  margin: 70px 0;
+}
+
+.agencies-left{
+  width: 30%;
+  max-width: 300px;
+}
+
+.agencies-number{
+  font-size: 280%;
+  margin-bottom: 40px;
+}
+
+.agencies-text{
+  line-height: 30px;
+  width: 80%;
+}
+
+.agencies-right{
+  width: 65%;
+}
+
+.agencies-right img{
+  width: 22%;
+  vertical-align: middle;
+  margin-left: 2%;
+}
+
+/* WOMAN */
+.woman-left{
+  padding: 30px 0;
+  width: 40%;
+}
+
+.woman-title{
+  font-size: 200%;
+  margin-bottom: 30px;
+}
+
+.woman-text{
+  margin-bottom: 60px;
+  line-height: 30px;
+}
+
+.woman-footer{
+  margin-top: 60px;
+}
+
+.woman-right img{
+  height: 450px;
+}
+
+/* PART-4 */
+.part-4{
+  height: 750px;
+  background-color: #32495B;
+}
+
+.part-4 *{
+  color: #C4D0DC;
+}
+
+.list{
+  width: 25%;
+}
+
+.list h4{
+  margin-top: 5%;
+  line-height: 80px;
+  font-size: 110%;
+  color: white;
+}
+
+.list .menu{
+  text-align: left;
+  line-height: 50px;
+}
+
+.list a.btn{
+  background-color: #C4D0DC;
+  color: #32495B;
+  border: 1px solid #C4D0DC;
+}
+
+.social-container{
+  width: 100%;
+}
+
+.social{
+  width: 18%;
+}
+
+/* LANGUAGES */
+.languages{
+  border-bottom: 1px solid #C4D0DC;
+}
+
+#languages-container{
+  width: 43%;
+  margin: auto;
+  padding: 100px 0 20px;
+}
+
+#languages-container .menu-line{
+  margin-right: 30px;
 }
