@@ -1,174 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+      crossorigin
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <div class="nav-container container clearfix gray">
+        <!-- NAV LEFT -->
+        <div class="nav-left float-left">
+          <span class="language">
+            <a href="#">
+              <i class="fas fa-globe-europe"></i>
 
-  <!-- NAV -->
-  <nav>
-    <div class="nav-container container clearfix gray">
-      
-      <!-- NAV LEFT -->
-      <div class="nav-left float-left">
-        <span class="language">
-          <a href="#">
-            <i class="fas fa-globe-europe"></i>
+              <span>English</span>
 
-            <span>English</span>
-
-            <i class="fas fa-angle-down"></i>
-          </a>
-        </span>
-
-        <span class="contact">
-          <a href="#">
-            Contact us
-          </a>
-        </span>
-      </div>
-
-      <!-- NAV-RIGHT -->
-      <ul class="nav-right menu float-right">
-        <li class="menu-line">
-          <a href="#">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-
-        <li class="menu-line">
-          <a class="btn btn-white" href="#">
-            Log in
-          </a>
-        </li>
-
-        <li class="menu-line">
-          <a class="btn btn-orange" href="#">
-            Get HubspotFree
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- HEADER -->
-  <header>
-    <div class="header-container container clearfix">
-      <div class="header-logo float-left">
-        <img src="assets/img/logo.svg" alt="logo">
-      </div>
-
-      <ul class="menu float-left">
-        <li class="menu-line">
-          <a href="#">
-            <span>Software</span>
-
-            <i class="fas fa-angle-down"></i>
-          </a>
-        </li>
-
-        <li class="menu-line">
-          <a href="#">
-            <span>Pricing</span>
-          </a>
-        </li>
-
-        <li class="menu-line">
-          <a href="#">
-            <span>Resources</span>
-
-            <i class="fas fa-angle-down"></i>
-          </a>
-        </li>
-
-        <li class="menu-line">
-          <a href="#">
-            <span>Partners</span>
-
-            <i class="fas fa-angle-down"></i>
-          </a>
-        </li>
-
-        <li class="menu-line">
-          <a href="#">
-            <span>About</span>
-
-            <i class="fas fa-angle-down"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- JUMBOTRON -->
-    <div class="jumbotron">
-      <div class="jumbotron-container container">
-        <div class="jumbotron-contnent">
-          <h1 class="jumbotron-title">
-            There's a better way to grow.
-          </h1>
-    
-          <p class="jumbotron-text">
-            Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer".
-          </p>
-    
-          <a class="btn btn-orange btn-large" href="#">
-            Get HubspotFree
-          </a>
-    
-          <p class="jumbotron-footer">
-            Get started with FREE tools, and upgrade as you grow.
-          </p>
-        </div>
-      </div>
-
-      <!-- ROW -->
-      <div class="row"></div>
-    </div>
-  </header>
-
-  <!-- MAIN -->
-  <main>
-    
-    <!-- PART-1 -->
-    <div class="part-1 container gray">
-      
-      <!-- CUBE -->
-      <section class="cube">
-        <div class="cube-container container">
-          <img src="assets/img/cube.webp" alt="cube">
-  
-          <h2 class="cube-title">
-            Powerful Alone. Better Together
-          </h2>
-  
-          <p class="cube-text">
-            HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone <span>&horbar;</span> but even better when used together.
-          </p>
-        </div>
-      </section>
-
-      <!-- FREE HUBSPOT -->
-      <section class="free">
-        <div class="free-container container block clearfix">
-          <div class="free-left float-left">
-            <img src="assets/img/book.svg" alt="book">
-
-            <a class="btn btn-orange btn-large" href="#">
-              Learn More
+              <i class="fas fa-angle-down"></i>
             </a>
+          </span>
+
+          <span class="contact">
+            <a href="#"> Contact us </a>
+          </span>
+        </div>
+
+        <!-- NAV-RIGHT -->
+        <ul class="nav-right menu float-right">
+          <li class="menu-line right-menu-line">
+            <a href="#">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+
+          <li class="menu-line right-menu-line">
+            <a class="btn btn-white" href="#"> Log in </a>
+          </li>
+
+          <li class="menu-line right-menu-line">
+            <a class="btn btn-orange" href="#"> Get HubspotFree </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+      <div class="header-container container clearfix">
+        <div class="header-logo float-left">
+          <img src="assets/img/logo.svg" alt="logo" />
+        </div>
+
+        <ul class="header-menu menu float-right">
+          <li class="menu-line right-menu-line">
+            <a href="#">
+              <span>Software</span>
+
+              <i class="fas fa-angle-down"></i>
+            </a>
+          </li>
+
+          <li class="menu-line right-menu-line">
+            <a href="#">
+              <span>Pricing</span>
+            </a>
+          </li>
+
+          <li class="menu-line right-menu-line">
+            <a href="#">
+              <span>Resources</span>
+
+              <i class="fas fa-angle-down"></i>
+            </a>
+          </li>
+
+          <li class="menu-line right-menu-line">
+            <a href="#">
+              <span>Partners</span>
+
+              <i class="fas fa-angle-down"></i>
+            </a>
+          </li>
+
+          <li class="menu-line right-menu-line">
+            <a href="#">
+              <span>About</span>
+
+              <i class="fas fa-angle-down"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- JUMBOTRON -->
+      <div class="jumbotron">
+        <div class="jumbotron-container container">
+          <div class="jumbotron-contnent">
+            <h1 class="jumbotron-title">There's a better way to grow.</h1>
+
+            <p class="jumbotron-text">
+              Marketing, sales, and service software that helps your business
+              grow without compromise. Because "good for the business" should
+              also mean "good for the customer".
+            </p>
+
+            <a class="btn btn-orange btn-large" href="#"> Get HubspotFree </a>
+
+            <p class="jumbotron-footer">
+              Get started with FREE tools, and upgrade as you grow.
+            </p>
           </div>
         </div>
-      </section>
-    </div>
-  </main>
-</body>
+
+        <!-- ROW -->
+        <div class="row"></div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- PART-1 -->
+      <div class="part-1 container gray">
+        <!-- CUBE -->
+        <section class="cube">
+          <div class="cube-container container">
+            <img src="assets/img/cube.webp" alt="cube" />
+
+            <h2 class="cube-title">Powerful Alone. Better Together</h2>
+
+            <p class="cube-text">
+              HubSpot offers a full stack of software for marketing, sales, and
+              customer service, with a completely free CRM at its core. They're
+              powerful alone <span>&horbar;</span> but even better when used
+              together.
+            </p>
+          </div>
+        </section>
+
+        <!-- FREE HUBSPOT -->
+        <section class="free">
+          <div class="free-container container block clearfix">
+            <div class="free-content">
+              <!-- FREE-LEFT -->
+              <div class="free-left float-left">
+                <img src="assets/img/book.svg" alt="book" />
+
+                <a class="btn btn-orange btn-large" href="#"> Learn More </a>
+              </div>
+
+              <!-- FREE-RIGHT -->
+              <div class="free-right float-left">
+                <h3 class="free-title block-title">Free HubSpot CRM</h3>
+
+                <p class="free-text block-text">
+                  Everything you need to organize, track, and build better
+                  relationship with leads and customers. Yes, it's 100% free.
+                  Forever.
+                </p>
+
+                <h4 class="free-subtitle block-subtitle">Popular feature</h4>
+
+                <!-- FREE-LIST -->
+                <ul class="free-list menu">
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Contact Insight</span>
+                  </li>
+
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Deals</span>
+                  </li>
+
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Task</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- COLUMNS -->
+        <section class="column-container clearfix">
+          <!--  MARKETING HUB -->
+          <div class="marketing column float-left block">
+            <div class="column-content">
+              <img src="assets/img/buble.svg" alt="buble" />
+
+              <h3 class="block-title">Marketing Hub</h3>
+
+              <p class="block-text">
+                Marketing software to help you grow traffic, convert more
+                visitors, and run complete inbound marketing campaigns at scale.
+              </p>
+
+              <div class="bottom-column">
+                <h4 class="block-subtitle">Popular feature</h4>
+
+                <!-- COLUMN LIST -->
+                <ul class="column-list menu">
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Lead Generation</span>
+                  </li>
+
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Marketing Automation</span>
+                  </li>
+
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Analytics</span>
+                  </li>
+                </ul>
+
+                <a class="btn btn-orange btn-large" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!--  SALES HUB  -->
+          <div class="sales column float-left block">
+            <div class="column-content">
+              <img src="assets/img/office.svg" alt="office" />
+
+              <h3 class="block-title">Sales Hub</h3>
+
+              <p class="block-text">
+                Time-saving sales software that helps you get deeper insights
+                into prospects, automate the tasks you hate, and close more
+                deals faster.
+              </p>
+
+              <div class="bottom-column">
+                <h4 class="block-subtitle">Popular feature</h4>
+
+                <!-- COLUMN LIST -->
+                <ul class="column-list menu">
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Email Tracking</span>
+                  </li>
+
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Meeting Scheduling</span>
+                  </li>
+
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Email Automation</span>
+                  </li>
+                </ul>
+
+                <a class="btn btn-orange btn-large" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!--  SERVICE HUB  -->
+          <div class="service column float-left block">
+            <div class="column-content">
+              <img src="assets/img/table.svg" alt="table" />
+
+              <h3 class="block-title">Service Hub</h3>
+
+              <p class="block-text">
+                Customers service software to help you connect with customers,
+                exceed expectations, and turn them into promoters that grow your
+                business.
+              </p>
+
+              <div class="bottom-column">
+                <h4 class="block-subtitle">Popular feature</h4>
+
+                <!-- COLUMN LIST -->
+                <ul class="column-list menu">
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Tickets</span>
+                  </li>
+
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Customer Feedback</span>
+                  </li>
+
+                  <li class="menu-line">
+                    <i class="fas fa-check-circle"></i>
+
+                    <span>Knowledge Base</span>
+                  </li>
+                </ul>
+
+                <a class="btn btn-orange btn-large" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- PART-2 -->
+      <div class="part-2 container">
+        <!-- BLUE/BOX -->
+        <div class="blue-container container">
+          <h2 class="blue-title">
+            Learn and grow with award-winning support and a thriving community
+            behind you.
+          </h2>
+
+          <p class="blue-text">
+            You don't have to go it alone. Master the inbound methodology and
+            get the most out of your tools with HubSpot's legendary customer
+            support team and a community of thousands of marketing and sales
+            pros just like you.
+          </p>
+
+          <!-- GRID -->
+          <div class="grid">
+            <!-- RULE-1 -->
+            <div class="rule-1 rule clearfix">
+              <!-- CELL-1 -->
+              <div class="cell-1 cell float-left">
+                <img src="assets/img/hands.svg" alt="hands" />
+
+                <h2 class="cell-number">150+</h2>
+
+                <p class="cell-text">HubSpot user groups</p>
+              </div>
+
+              <!-- CELL-2 -->
+              <div class="cell float-left">
+                <img src="assets/img/blogs.svg" alt="blogs" />
+
+                <h2 class="cell-number">4.5M+</h2>
+
+                <p class="cell-text">monthly visits</p>
+              </div>
+
+              <!-- CELL-3 -->
+              <div class="cell float-left">
+                <img src="assets/img/academy.svg" alt="academy" />
+
+                <h2 class="cell-number">155K+</h2>
+
+                <p class="cell-text">certified professionals</p>
+              </div>
+
+              <!-- CELL-4 -->
+              <div class="cell float-left">
+                <img src="assets/img/inbound.svg" alt="inbound" />
+
+                <h2 class="cell-number">21K+</h2>
+
+                <p class="cell-text">registered attendees</p>
+              </div>
+            </div>
+
+            <!-- RULE-2 -->
+            <div class="rule-2 rule clearfix">
+              <!-- CELL-1 -->
+              <div class="cell-1 cell float-left">
+                <img src="assets/img/connect.svg" alt="connect" />
+
+                <h2 class="cell-number">200+</h2>
+
+                <p class="cell-text">integrations</p>
+              </div>
+
+              <!-- CELL-2 -->
+              <div class="cell float-left">
+                <img src="assets/img/globe.svg" alt="globe" />
+
+                <h2 class="cell-number">6+</h2>
+
+                <p class="cell-text">languages</p>
+              </div>
+
+              <!-- CELL-3 -->
+              <div class="cell float-left">
+                <img src="assets/img/followers.svg" alt="followers" />
+
+                <h2 class="cell-number">2.6M+</h2>
+
+                <p class="cell-text">social followers</p>
+              </div>
+
+              <!-- CELL-4 -->
+              <div class="cell float-left">
+                <img src="assets/img/growth.svg" alt="growth" />
+
+                <h2 class="cell-number">5K+</h2>
+
+                <p class="cell-text">profiles and counting</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
