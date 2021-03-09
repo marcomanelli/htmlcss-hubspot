@@ -306,7 +306,7 @@ a {
 
 .column {
   position: relative;
-  height: 770px;
+  height: 720px;
   width: calc(90% / 3);
   padding: 0 1%;
   text-align: center;
@@ -325,37 +325,27 @@ a {
   padding-bottom: 30px;
 }
 
-/* LINE */
-.column .block-text::after {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translateX(-50%);
-  content: "";
-  display: block;
-  width: 80%;
-  height: 1px;
-  border-bottom: 1px solid #33475b;
-}
-
 .bottom-column {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 100%;
+  padding: 0 10%;
 }
 
 .bottom-column .block-subtitle {
-  margin-top: 30px;
+  margin-top: 70px;
+  padding-top: 40px;
+  border-top: 1px solid #33475b;
 }
 
 .bottom-column > * {
   margin-bottom: 30px;
 }
 
-.column .block-subtitle {
-  padding-top: 80px;
+.bottom-column .menu{
+  min-width: 300px;
 }
 
 .column-list li {
@@ -420,6 +410,15 @@ a {
 
 .cell-number {
   font-size: 300%;
+  line-height: 50px;
+}
+
+.cell-number::after{
+  content: ' +';
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 50px;
+  vertical-align: middle;
 }
 
 .cell-text {
@@ -513,6 +512,8 @@ a {
 .list .menu {
   text-align: left;
   line-height: 50px;
+  min-width: 300px;
+  max-width: 300px;
 }
 
 .list a.btn {
@@ -541,6 +542,7 @@ a {
 
 #languages-container {
   width: 43%;
+  min-width: 600px;
   margin: auto;
   padding: 100px 0 20px;
 }
